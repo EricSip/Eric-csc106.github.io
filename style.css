@@ -1,0 +1,173 @@
+.h1 {
+  position: relative;
+ bottom: 30px;
+  font-size: 46px;
+  text-align: center;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+.h1::before {
+  content: "";
+    background-color: rgb(152, 168, 246);
+
+    position: absolute;
+    float: left;
+    height: 12vw;
+    width: 100%;
+    left: 0%;
+    top: -3.2vw;
+    z-index: -2;
+  }
+h2 {
+            color: rgb(0, 232, 15);
+        }
+        body {
+         background-color: lightblue;
+         margin-left: 350px;
+         margin-right: 350px;
+}
+box-sizing: border-box;
+
+#buttons
+{
+    position: absolute;
+    width: 49%;
+    height: 5%;
+    z-index: 3;
+ }
+ #container
+ {
+   position: relative;
+   width: auto;
+   /* padding: 63px; */
+   height: 210vw;
+   z-index: 3;
+ }
+.banner {
+ margin: 0px auto;
+ display: block;
+ width: 100%;
+  z-index: 2;
+}
+.text{
+  position:relative;
+  font-size: 24px;
+ 
+text-align: center;
+z-index: 2;
+}
+.text::before 
+{
+  content: "";
+
+ background-color: rgb(178, 211, 255);
+    position: absolute;
+        left: 0%;
+        overflow-y: hidden;
+    height: 270%;
+    width: 100%;
+    top: vw;
+    z-index: -2;
+}
+.about_1 {
+     position: absolute;
+ top: 110%;
+  float: left;
+  left: 110px;
+  width: 30%;
+}
+.about_2 {
+   position: absolute;
+   top: 110%;
+  float: right;
+  width: 19%;
+  right: 100px;
+}
+.java_txt
+{ position:relative;
+  font-size: 24px;
+  text-align: center;
+  z-index: 2;
+}
+.java_txt::before 
+{
+  content: "";
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0%;
+  overflow-y: hidden;
+  height: 148vw;
+  width: 100%;
+  z-index: -2;
+  margin-right: 350px;
+}
+table#table\#1
+{
+  position: relative;
+  left: -0.3%;
+  top: -52px;
+  width: 100%;
+}
+.home
+{
+  width: 100px;
+  padding-right: 25%;
+}
+.java 
+{
+  width:100px;
+}
+.about 
+{
+  width: 100px;
+  float: right;
+}
+table#table\#2 {
+    width: 100%;
+}
+.dance
+{position: relative;float: left;padding-right: 15%;z-index: 3;}
+.race
+{
+  position: relative;
+  float: right;
+  z-index: 3;
+}
+.follow
+{
+  position: relative;
+  float: left;
+}
+.decision
+{
+  position: relative;
+  float: right;
+}
+.zoo
+{
+  position: relative;
+  float: left;
+}
+.tag
+{
+  position: relative;
+  float: right;
+}
+.contact
+{
+  positon: relative;
+  float: left;
+}
+.tictac
+{
+  position: relative;
+  float: right;
+}
+.mash
+{
+  position: relative;
+  float: left;
+}
+.memory
+{position: relative;
+  float: right;}
