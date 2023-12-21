@@ -89,6 +89,14 @@ z-index: 2;
   text-align: center;
   z-index: 2;
 }
+.final
+{
+  position: relative;
+   top: 110%;
+  float: right;
+  width: 19%;
+  right: 0px;
+}
 .java_txt::before 
 {
   content: "";
@@ -118,6 +126,12 @@ table#table\#1
   width:100px;
 }
 .about 
+{
+  width: 100px;
+  float: right;
+  
+}
+.final
 {
   width: 100px;
   float: right;
@@ -171,3 +185,22 @@ table#table\#2 {
 .memory
 {position: relative;
   float: right;}
+
+.rainingrocks
+{
+  position: relative;
+  float:center
+
+}
+
+.video1
+{
+  position: relative;
+  float: left;
+}
+.video2
+{
+  position: relative;
+  float: right;
+}
+
